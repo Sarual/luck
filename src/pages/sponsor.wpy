@@ -1,4 +1,5 @@
 <template>
+<div>
   <TitleBar :isBackBtn.sync="isBackBtn" :titleText.sync="titleText"></TitleBar>
   <view class="sponsor">
     <view class="inputWrap">
@@ -11,6 +12,7 @@
     <button @tap="sponsorBtn">提交</button>
     <text class="writing">感谢支持和信赖，我们将在2个工作日内与您联系</text>
   </view>
+</div>
 </template>
 <script>
   import wepy from 'wepy'

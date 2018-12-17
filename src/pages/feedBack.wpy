@@ -1,4 +1,5 @@
 <template>
+<div>
   <TitleBar :isBackBtn.sync="isBackBtn" :titleText.sync="titleText"></TitleBar>
   <view class="feedBack">
     <view class="inputWrap">
@@ -6,6 +7,7 @@
     </view>
     <button @tap="feedBackBtn">提交</button>
   </view>
+</div>
 </template>
 <script>
   import wepy from 'wepy'

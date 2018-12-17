@@ -1,4 +1,5 @@
 <template>
+<div>
   <LoadingZ :isShow.sync="isShow"></LoadingZ>
   <TitleBar :isBackBtn.sync="isBackBtn" :titleText.sync="titleText"></TitleBar>
   <view class="probability">
@@ -33,6 +34,7 @@
       <button class="share" formType="submit" open-type="share">邀请好友参加抽奖</button>
     </form>
   </view>
+</div>
 </template>
 <script>
   import wepy from 'wepy'

@@ -1,4 +1,5 @@
 <template>
+<div>
   <LoadingZ :isShow.sync="isShow"></LoadingZ>
   <TitleBar :isBackBtn.sync="isBackBtn" :isShareBtn.sync="isShareBtn" :titleText.sync="titleText"></TitleBar>
   <view class="banner" wx:if="{{prizesDraws.is_get_draw}}">
@@ -48,6 +49,7 @@
   <navigator hover-class="none" class="otherBtn" url="/pages/home">
     参加其他抽奖
   </navigator>
+</div>
 </template>
 <script>
 import wepy from 'wepy'

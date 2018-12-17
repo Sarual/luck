@@ -1,4 +1,5 @@
 <template>
+<div>
   <TitleBar :isBackBtn.sync="isBackBtn" :titleText.sync="titleText"></TitleBar>
   <view class="strategy">
     <label class="titleH1">什么是福利分？</label>
@@ -19,6 +20,7 @@
       ·好友中奖
     </text>
   </view>
+</div>
 </template>
 <script>
   import wepy from 'wepy'

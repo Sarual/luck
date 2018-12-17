@@ -1,4 +1,5 @@
 <template>
+<div>
   <LoadingZ :isShow.sync="isShow"></LoadingZ>
   <TitleBar :isBackBtn.sync="isBackBtn" :titleText.sync="titleText"></TitleBar>
   <TransmissionGate :transmissionType.sync="transmissionType"></TransmissionGate>
@@ -81,6 +82,7 @@
       </navigator>
     </form>
   </view>
+</div>
 </template>
 <script>
   import wepy from 'wepy'

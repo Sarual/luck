@@ -1,4 +1,5 @@
 <template>
+<div>
   <LoadingX :isLoading.sync="isLoading"></LoadingX>
   <LoadingZ :isShow.sync="isShow"></LoadingZ>
   <TransmissionGate :transmissionType.sync="transmissionType"></TransmissionGate>
@@ -36,6 +37,7 @@
       </swiper-item>
     </swiper>
   </view>
+</div>
 </template>
 <script>
 import wepy from 'wepy'

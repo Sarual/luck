@@ -1,10 +1,12 @@
 <template>
+<div>
   <LoadingZ :isShow.sync="isShow"></LoadingZ>
   <TitleBar :isBackBtn.sync="isBackBtn" :titleText.sync="titleText"></TitleBar>
   <view class="portrait" >
     <text>{{count}} 位参与者</text>
     <image src="{{item}}" wx:for="{{userAvatarsList}}" wx:key="index"></image>
   </view>
+</div>
 </template>
 <script>
   import wepy from 'wepy'

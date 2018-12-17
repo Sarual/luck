@@ -1,4 +1,5 @@
 <template>
+<div>
   <LoadingZ :isShow.sync="isShow"></LoadingZ>
   <LoadingX :isLoading.sync="isLoading"></LoadingX>
   <TitleBar :isBackBtn.sync="isBackBtn" :isShareBtn.sync="isShareBtn" :titleText.sync="titleText"></TitleBar>
@@ -107,6 +108,7 @@
     </view>
     <image src="{{prizesDetails.detail_url}}" class="commodityDisplay" mode="widthFix"></image>
   </view>
+</div>
 </template>
 <script>
   import wepy from 'wepy'
